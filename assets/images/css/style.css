@@ -1,0 +1,787 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+}
+.left{
+    width: 47%;
+    display: inline-block;
+    border: 2px ridge black;
+    box-shadow: 6px 0px 6px  3px rgb(175, 160, 160);
+}
+.right{
+    width: 47%;
+    display: inline-block;
+    border: 2px ridge black;
+    box-shadow: 6px 0px 6px  3px rgb(175, 160, 160);
+}
+.header{
+    height: 55px;
+}
+
+.header-icons li i{
+   width: 20px;
+    height:20px; 
+    color: rgb(51, 49, 49);  
+    border-radius: 50%;
+    background-color: rgb(112, 108, 108);;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+
+}
+ .header-num ul li i{
+    color: rgb(17, 235, 17);
+}   
+
+.header-num span{
+    font-size: 13px;
+}
+
+.btn{
+    color: black;
+    background-color:rgb(17, 235, 17) ;
+   }
+   /* NAVBAR CSS */
+ .navbar{
+    height: 12vh; 
+    border: 2px solid gray;
+   /* text-align: center; */
+ } 
+ .navbar img{
+     width: 110px;
+     height: 80px;
+    padding-bottom: 20px; 
+ }  
+ 
+.navbar a{
+   text-decoration: none;
+   color: black;
+   font-size: 10px;
+   font-weight: bold;
+   text-align: center;
+   /* margin: 10 px auto; */
+   padding-bottom: 15px; 
+}
+
+.navbar a:hover{
+    /* color: white; */
+     /* background-color: black;
+    text-decoration: underline ;  */
+    border-bottom: 5px solid rgb(255, 123, 0);
+}
+
+.carousel-inner{
+    height: 350px;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+}
+
+.carousel h1{
+   font-size: 52px;
+   font-weight: 700; 
+   /* margin-bottom: 35px; */
+}
+
+.carousel p{
+    font-size: 15px;
+    margin-bottom:24px ; 
+}
+
+.btn-2{
+    width: 176px;
+    height: 40px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 600;
+    background-color:rgb(240, 204, 8);
+}
+.btn-2:hover{
+    color: black;
+    background: greenyellow;
+    border: 1px solid black;
+}
+/* ADVANTAGES */
+.advantages{
+    border: 2px solid gray;
+} 
+.advantages h1{
+    font-size: 40px;
+     font-weight: bold; 
+    text-align: center;
+    margin-top: 35px;
+}
+
+.advantages span{
+    color:rgb(8, 146, 8);
+
+}
+
+.advantages p{
+    color: gray;
+    text-align: center;
+}
+
+.advantages-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.advantages-icons i{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: green;
+    text-align: center;
+   font-size: 50px;
+    background-color:rgba(214, 214, 214, 0.432);
+    padding: 10px 0;
+}
+
+/* .icons-h-p{
+    display: flex;
+    justify-content: space-between;
+    font-size: 3px;
+} */
+
+.text{
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.text h4{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    padding: 17px 4px;
+}
+
+.text p{
+    color: gray;
+    font-size: 12px;
+    padding-bottom: 17px;
+    
+}
+
+/* ABOUT US */
+
+.about-us{
+    /* margin: 10px auto; */
+     /* height: 144vh; */
+    border: 2px solid gray;
+    background-color: rgba(214, 214, 214, 0.67);
+}
+.about-us h1{
+    font-size: 40px;
+     font-weight: bold; 
+    text-align: center;
+    margin: 28px 0px 70px 15px;
+    padding-top: 10px;
+
+}
+
+.about-us span{
+    color:rgb(8, 146, 8);
+}
+
+.about-us-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 50px; */
+    padding: -47px 0;
+    font-size: 10px;
+     margin: 50px 0px 60px 15px; 
+}
+
+.about-us p{
+    font-size: 11px;
+    font-weight: bold;
+}
+.about-us-img{
+    background-color: rgb(187, 175, 175);
+}
+
+.about-us-img img{
+    width: 330px;
+    height: 270px;
+    border-radius: 30% ;
+     /* background-color: greenyellow;  */
+}
+
+.btn-3{
+    width: 176px;
+    height: 40px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 600;
+    background-color:rgb(253, 179, 41);
+}
+
+.btn-3:hover{
+    color: black;
+    background: greenyellow;
+    border: 1px solid black;
+}
+
+/* OUR SERVICES */
+.our-services{
+    border: 2px solid gray;
+}
+
+.our-services h1{
+    font-size: 40px;
+     font-weight: bold; 
+    text-align: center;
+    margin-top: 35px;
+}
+
+.our-services span{
+    color:rgb(8, 146, 8);
+
+}
+.our-services p{
+    color: gray;
+    text-align: center;
+}
+.services-boxs{
+    display: flex;
+    justify-content: space-between;
+
+}
+.services-boxs .box{
+   width:25% ;
+   background-color: rgba(231, 222, 222, 0.986);
+    padding: 10px; 
+   margin: 31px 7px; 
+    position: relative; 
+}
+
+.services-boxs .box .star{
+    background-color: rgba(255, 174, 25, 0.918);
+    color: rgba(255, 44, 44, 0.979);
+    width: 32px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 50%;
+    position: absolute;
+    left: 51px;
+    bottom: 146px;
+}
+.services-boxs .box h5{
+    padding-top: 12px;
+  font-size: small;
+    font-weight:bolder;
+    text-align: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.services-boxs .box p{
+    color: gray;
+    font-size: 13px;
+}
+
+.services-boxs .box a{
+    color:  rgba(8, 146, 8, 0.822);
+    text-align: center;
+    margin-left: 21px;
+    
+}
+
+/* OUR PORTFOLIO CSS */
+
+.portfolio{
+    background-color: black;
+    border: 2px solid gray;
+}
+
+.portfolio h1{
+    color: white;
+    font-size: 40px;
+     font-weight: bold; 
+    text-align: center;
+    margin-top: 35px;
+}
+
+.portfolio span{
+    color:rgb(8, 146, 8);
+}
+
+.portfolio p{
+    color: white;
+    text-align: center;
+    font-size:12px;
+}
+
+.work{
+    display: flex;
+    color: white;
+}
+
+ .work div{
+    color: white;
+    text-align: center;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bolder;
+    /* font-family: 'Courier New', Courier, monospace; */
+    transition: 0.5s ease-in-out;
+    /* height: 9px; */
+    margin: -12px -4px 0px 7px;
+}
+
+.work div:hover{
+    color: rgb(243, 180, 63);
+    cursor: pointer;
+}
+
+.portfolio img{
+    padding: 20px;
+    width: 609px;
+    
+}
+
+/* RIGHT DIV CSS */
+/* OUR PROCESS */
+
+.process{
+    border: 2px solid gray;
+} 
+.process h1{
+    font-size: 40px;
+     font-weight: bold; 
+    text-align: center;
+    margin-top: 35px;
+}
+
+.process span{
+    color:rgb(8, 146, 8);
+
+}
+
+.process p{
+    color: gray;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    color: green;
+}
+
+.icons .no{
+    position: relative;
+    
+}
+.icons .no i{
+    color: rgb(95, 148, 16);
+    display: inline-block;
+    border-radius: 50%;
+    width: 78px;
+     height: 78px; 
+    font-size: 42px;
+    padding: 17px;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: -2px;
+    margin-block-end: 29px;
+    border: 2px solid rgb(158, 139, 139);
+}
+.icons .no p{
+    background-color: rgba(255, 174, 25, 0.918);
+    color:black;
+    width: 23px;
+    text-align: center;
+    padding: 0 5px;
+    border-radius: 50%;
+    position: absolute; 
+    left: 0px;
+    bottom: 76px;
+    font-weight: 570;
+     margin-left: 53px;
+    margin-top: -109px; 
+    display: inline-block;
+     display: flex; 
+
+}
+
+
+  .no::before , .no::after{
+    content: "";
+    position: absolute;
+    margin: auto;
+  
+    height: 3px;
+    width: 25px;
+    
+    background-color:rgb(158, 139, 139);
+    top: 37%;
+
+}
+.right .icons .no:first-child::before{
+display: none;
+}
+.right .icons .no:last-child::after{
+    display: none;
+}   
+
+ .process .text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.process .text h4{
+    text-align: center;
+    margin-left: 11px;
+    font-size: 11px;
+    font-weight: bolder;
+    padding: 1px 6px;
+    color: #000;
+    
+}
+.process .text p{
+    padding: -9px;
+    margin: 5px;
+    margin-left: 22px;
+    font-size: 11px;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+    
+}  
+
+/* PEOPLE ABOUT US CSS */
+/* PEOPLE */
+
+.people{
+    border: 2px solid gray;
+} 
+.people h1{
+    font-size: 40px;
+     font-weight: bold; 
+    text-align: center;
+    margin-top: 35px;
+}
+
+.people span{
+    color:rgb(8, 146, 8);
+
+}
+
+.people p{
+    color: #808080ba;
+    text-align: center;
+}
+
+ .people{
+    background-color: rgba(214, 214, 214, 0.37);
+    border-top: 2px solid rgb(146, 133, 133);
+}
+.people .flex ,.people .profile{
+    display: flex;
+}
+
+.profile i{
+    background-color: white;
+    color: gray;
+    width: 68px;
+    height: 64px;
+    font-size: 37px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 11px 0;
+    margin-left: 11px;
+}
+.people .profile h4{
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 589;
+    color: #0000009c;
+}
+.people .profile p{
+    margin-left: 7px;
+    padding: 0;
+    color: #000000a6;
+    text-align: left;
+    font-size: 12px;
+}
+
+/* OUR SKILLS CSS */
+
+.skills{
+    border: 2px solid gray;
+} 
+.skills h1{
+    font-size: 40px;
+     font-weight: bold; 
+    text-align: center;
+    margin-top: 35px;
+}
+
+.skills span{
+    color:rgb(8, 146, 8);
+
+}
+
+
+.skills p{
+    color: gray;
+    text-align: center;
+}
+.pie-chart {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    font-size: 30px;
+}
+.pie-chart:before {
+    --line: 10px;
+    --color: var(--c, #444);
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    background: conic-gradient(var(--color) calc(var(--p) * 1%), #ccc 0);
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(99% - var(--line)), #000 calc(100% - var(--line)));
+    mask: radial-gradient(farthest-side, transparent calc(99% - var(--line)), #000 calc(100% - var(--line)));
+}
+.pie-chart:after {
+    content: "%";
+    font-size: 20px;
+    margin-right: -4px;
+}
+.charts {
+    display: flex;
+    font-family: arial;
+    gap: 10px;
+    justify-content: space-around;
+}
+.skills .name{
+    display: flex;
+     justify-content: space-around; 
+    margin-left:168px;
+   padding-bottom:68px ;
+    margin-top: -41px;
+}
+ .skills .name div{
+    margin-top: 50px;
+   font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* PROJECT CSS */
+.project{
+    background-color:  rgb(85, 159, 12);
+    border: 2px solid gray;
+}
+.project h1{
+    color: white;
+    font-size: 41px;
+    font-weight: 578; 
+    padding: 34px 48px;
+    /* margin-bottom: 35px; */
+ }
+ .project input{
+    width: 125px;
+    padding: 5px 3px;
+    border-radius: 5px;
+    margin: 0 1px;
+    font-size: 13px;
+ }
+ .project div{
+    margin: -5px 35px;
+}
+.btn-4{
+    width: 137px;
+    height: 36px;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 3px ;
+    margin-bottom: 20px;
+    font-weight: 600;
+    background-color: #ffa500f5;
+}
+.btn-4:hover{
+    color: black;
+    background: greenyellow;
+    border: 1px solid black;
+}
+.project p {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+}
+/* END PROJECT */
+
+/* LOCATION CSS */
+.location{
+    border: 2px solid gray;
+} 
+.location h1{
+    font-size: 40px;
+     font-weight: bold; 
+    text-align: center;
+    margin-top: 35px;
+}
+
+.location span{
+    color:rgb(8, 146, 8);
+
+}
+
+.location p{
+    color: gray;
+    text-align: center;
+}
+ 
+.location i{
+    color: rgb(8, 146, 8);
+    line-height: 30px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+.location .fa-phone .fa-envelope-o{
+margin-left: 10px;
+}
+.location .fa-map{
+    margin-left: 100px;
+}
+.location iframe{
+    width: 100%;
+    margin: 0;
+    padding: 0
+} 
+.place-card.place-card-large {
+    display: none !important;
+  }
+
+/* FOOTER */
+/* FOOTER START */
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(67, 124, 10);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 8px;
+    border: 2px solid gray;
+  }
+  .footer.f-1 {
+    padding-left: 29px;
+  }
+   .footer .f-1 img{
+    margin: 1px;
+    width: 172px;
+    height: 148px;
+    padding: 20px;
+    background-color: rgb(67, 124, 10);
+    color:  rgb(67, 124, 10);
+}
+.footer .f-1 p{
+    padding: -1px 20px;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.footer .f-1 h5{
+    padding: 6px 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .footer .f-2{
+    padding: 54px 30px;
+    margin-right: 47px;
+}
+.footer .f-2 h4{
+font-size: 22px;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+}
+ .footer .f-2 div{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    font-size: 12px;
+
+}
+ .footer .f-3{
+    padding: 49px 30px;
+    margin-left: -65px;
+    border-left: 2px solid rgba(255, 255, 255, 0.39);
+   
+}
+.footer .f-3 h4{
+    font-size: 22px;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+}
+
+ .footer .f-3 div{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    font-size: 12px;
+
+}
+.footer .f-4 i{
+    color: white;
+    /* display: inline-block; */
+}
+.footer .f-4{
+    padding: 50px 0px;
+    justify-content: space-between
+}
+.footer .f-4 h4{
+    font-size: 22px;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+}
+.footer .f-4 div{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 26px;
+    font-size: 12px;
+}
+.footer .f-5{
+    padding: 26px 30px;
+    justify-content: space-between;
+
+}
+ .footer .f-5 h4{
+    font-size: 22px;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+ }
+     
+
+.footer .f-5  i{
+     
+      width:18px;
+    height:18px; 
+    color: rgb(223, 211, 211);  
+    border-radius: 50%;
+    background-color: black;
+    /* margin: 0px 2px 0px 2px;  */
+    text-align: center; 
+    /* display: inline; */
+    font-size: 11px;
+    padding: 5px;
+    
+}
+.L-FOOTER{
+    margin-left: -22px;
+    border-left: 2px solid rgba(255, 255, 255, 0.39);
+  }
+  
+
+/* footer end */
+
+ 
